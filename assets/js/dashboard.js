@@ -1,4 +1,4 @@
-fetch('assets/json/stats.json')
+fetch('https://gungkrisna.github.io/uts-web/assets/json/stats.json')
   .then((res) => res.json())
   .then((data) => {
     $('#infected').append(data.numbers.infected);
