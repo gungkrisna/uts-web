@@ -1,4 +1,4 @@
-fetch('../assets/json/stats.json')
+fetch('assets/json/stats.json')
   .then((res) => res.json())
   .then((data) => {
     $('#infected').append(data.numbers.infected);
